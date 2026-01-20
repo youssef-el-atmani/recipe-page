@@ -1,1 +1,10 @@
+/* Use the alternative box model */
+html {
+  box-sizing: border-box;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
