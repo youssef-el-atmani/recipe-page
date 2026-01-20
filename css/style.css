@@ -8,3 +8,14 @@ html {
 *::after {
   box-sizing: inherit;
 }
+
+/* Remove browsers default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  /* Override Normalize.css margin declaration */
+  margin: 0;
+}
