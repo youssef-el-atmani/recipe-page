@@ -19,3 +19,19 @@ h1 {
   /* Override Normalize.css margin declaration */
   margin: 0;
 }
+
+/* CSS variables */
+:root {
+  /* Colors */
+  --rose-800: #7a284e;
+  --rose-050: #fff7fb;
+
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+  --stone-150: #e3ddd7;
+  --stone-100: #f3e5d7;
+
+  --brown-800: #854632;
+
+  --white: #ffffff;
+}
