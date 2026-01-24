@@ -158,3 +158,11 @@ article img {
   height: 171px;
   object-fit: cover;
 }
+
+@media screen and (width > 412px) {
+  article > img {
+    height: 300px;
+    border-radius: 12px;
+    margin-bottom: var(--spacing-500);
+  }
+}
