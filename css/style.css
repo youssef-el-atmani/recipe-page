@@ -188,3 +188,7 @@ h1 {
   margin-bottom: var(--spacing-300);
   color: var(--stone-900);
 }
+
+.description {
+  color: var(--stone-600);
+}
