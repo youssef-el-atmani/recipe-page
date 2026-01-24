@@ -166,3 +166,14 @@ article img {
     margin-bottom: var(--spacing-500);
   }
 }
+
+/* || recipe content */
+.content-container {
+  padding: var(--spacing-500) var(--spacing--400);
+}
+
+@media screen and (width > 412px) {
+  .content-container {
+    padding: 0;
+  }
+}
