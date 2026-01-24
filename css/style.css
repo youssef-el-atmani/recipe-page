@@ -45,3 +45,88 @@ h1 {
   --spacing--150: 12px;
   --spacing--100: 8px;
 }
+
+/* || fonts */
+
+/* Outfit-font */
+@font-face {
+  font-family: "Outfit-Regular";
+  src:
+    url("/assets/fonts/outfit/woff-woff2/Outfit-Regular.woff2") format("woff2"),
+    url("/assets/fonts/outfit/woff-woff2/Outfit-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit-Semibold";
+  src:
+    url("/assets/fonts/outfit/woff-woff2/Outfit-SemiBold.woff2") format("woff2"),
+    url("/assets/fonts/outfit/woff-woff2/Outfit-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Outfit-Bold";
+  src:
+    url("/assets/fonts/outfit/woff-woff2/Outfit-Bold.woff2") format("woff2"),
+    url("/assets/fonts/outfit/woff-woff2/Outfit-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*  Young Serif font*/
+@font-face {
+  font-family: "Young Serif";
+  src:
+    url("/assets/fonts/young-serif/woff-woff2/YoungSerif-Regular.woff2")
+      format("woff2"),
+    url("/assets/fonts/young-serif/woff-woff2/YoungSerif-Regular.woff")
+      format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Fonts Classes */
+.text-preset-1,
+.text-preset-2,
+.text-preset-3 {
+  line-height: 100%;
+  letter-spacing: 0px;
+}
+
+.text-preset-1 {
+  font-family: "Young Serif", sans-serif;
+  font-size: 40px;
+}
+
+.text-preset-2 {
+  font-family: "Young Serif", sans-serif;
+  font-size: 28px;
+}
+
+.text-preset-3 {
+  font-family: "Outfit-Semibold", sans-serif;
+  font-size: 20px;
+}
+
+/* ---------------------- */
+.text-preset-4,
+.text-preset-4-bold {
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-size: 16px;
+}
+
+.text-preset-4 {
+  font-family: "Outfit-Regular", sans-serif;
+}
+
+.text-preset-4-bold {
+  font-family: "Outfit-Bold";
+}
