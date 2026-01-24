@@ -166,3 +166,17 @@ article img {
     margin-bottom: var(--spacing-500);
   }
 }
+
+/* || recipe content */
+article .content-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing--400);
+
+  padding: var(--spacing-500) var(--spacing--400);
+}
+
+h1,
+h2 {
+  margin-bottom: var(--spacing-300);
+}
