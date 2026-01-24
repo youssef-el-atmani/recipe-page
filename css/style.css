@@ -130,3 +130,8 @@ h1 {
 .text-preset-4-bold {
   font-family: "Outfit-Bold";
 }
+
+/* || Article general styling */
+article {
+  width: 100%;
+}
