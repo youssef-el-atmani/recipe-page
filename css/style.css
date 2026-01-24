@@ -192,3 +192,30 @@ h1 {
 .description {
   color: var(--stone-600);
 }
+
+/* || preparation time */
+[aria-label="preparation time"] {
+  background-color: var(--rose-050);
+  border-radius: 12px;
+  padding: var(--spacing-300);
+}
+
+[aria-label="preparation time"] h2 {
+  color: var(--rose-800);
+  margin-bottom: var(--spacing--200);
+}
+
+[aria-label="preparation time"] li {
+  /* this margin is for making moving the marker in */
+  margin-left: 15px;
+  padding-left: calc(var(--spacing-500) - 15px);
+  color: var(--stone-600);
+}
+
+[aria-label="preparation time"] strong {
+  font-family: "Outfit-Bold";
+}
+[aria-label="preparation time"] ::marker {
+  display: inline-block;
+  color: var(--rose-800);
+}
