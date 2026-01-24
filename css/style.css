@@ -130,18 +130,3 @@ h1 {
 .text-preset-4-bold {
   font-family: "Outfit-Bold";
 }
-
-/* || body */
-body {
-  background-color: var(--stone-100);
-}
-
-/* || Article general styling */
-article {
-  max-width: 736px;
-  padding: 40px;
-  margin: 128px auto 0;
-
-  background-color: var(--white);
-  border-radius: 24px;
-}
