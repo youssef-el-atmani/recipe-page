@@ -213,9 +213,113 @@ h1 {
 }
 
 [aria-label="preparation time"] strong {
-  font-family: "Outfit-Bold";
+  font-family: "Outfit-Bold", sans-serif;
 }
 [aria-label="preparation time"] ::marker {
   display: inline-block;
   color: var(--rose-800);
+}
+
+/* || ingredients & instructions lists*/
+.ingredients ul,
+.ingredients ol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing--100);
+}
+
+/* || ingredients */
+.ingredients h2 {
+  color: var(--brown-800);
+  margin-bottom: var(--spacing-300);
+}
+.ingredients ul {
+  margin-left: 24px;
+  color: var(--stone-600);
+}
+.ingredients li {
+  padding-left: var(--spacing--200);
+}
+
+::marker {
+  color: var(--rose-800);
+}
+
+/* || horizontal line */
+.horizontal-line {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+/* || instructions */
+.instructions h2 {
+  color: var(--brown-800);
+  margin-bottom: var(--spacing-300);
+}
+.instructions ol {
+  margin-left: 24px;
+  color: var(--stone-600);
+}
+.instructions li {
+  padding-left: var(--spacing--200);
+}
+
+.instructions strong {
+  font-family: "Outfit-Bold", sans-serif;
+}
+.instructions ::marker {
+  font-weight: 900;
+}
+
+/* || Nutrition */
+.nutrition h2 {
+  color: var(--brown-800);
+  margin-bottom: var(--spacing-300);
+}
+
+.nutrition caption {
+  color: var(--stone-600);
+  text-align: left;
+  margin-bottom: var(--spacing-300);
+}
+
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table tr * {
+  text-align: left;
+  padding: var(--spacing--150);
+}
+table tr :first-child {
+  padding-left: var(--spacing--400);
+
+  font-family: "Outfit-Regular", sans-serif;
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-size: 16px;
+
+  color: var(--stone-600);
+}
+
+table tr:first-child * {
+  padding-top: 0;
+}
+
+table tr:last-child * {
+  padding-bottom: 0;
+}
+
+table tr:not(table tr:last-child) {
+  border-bottom: 1px solid var(--stone-150);
+}
+
+table td {
+  font-family: "Outfit-Bold";
+  line-height: 150%;
+  letter-spacing: 0px;
+  font-size: 16px;
+
+  color: var(--brown-800);
 }
