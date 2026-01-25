@@ -327,3 +327,24 @@ table td {
 
   color: var(--brown-800);
 }
+
+/* || footer */
+.attribution {
+  font-family: "Outfit-Regular", sans-serif;
+  font-size: 16px;
+  padding-bottom: var(--spacing--200);
+}
+
+.attribution a {
+  color: var(--brown-800);
+}
+.attribution a:visited {
+  color: var(--stone-900);
+}
+.attribution a:hover {
+  color: var(--rose-800);
+}
+
+.attribution a:active {
+  color: var(--white);
+}
